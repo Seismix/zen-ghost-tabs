@@ -18,7 +18,6 @@ The goal is to make them easier to distinguish from loaded tabs, while still bei
 
 1. Copy the `chrome.css` file to your Zen Browser profile's `chrome` folder
 2. Restart Zen Browser
-3. Enjoy the ghost-like appearance of unloaded tabs!
 
 ## How it works
 
