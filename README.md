@@ -1,6 +1,7 @@
 # Ghost Tabs
 
 A Zen Browser mod that makes unloaded tabs & folders appear ghost-like by making them grayscale and transparent.
+The goal is to make them easier to distinguish from loaded tabs, while still being visible enough to identify them.
 
 *Inspired by [Felkazz/zen-browser-better-unloaded-tabs](https://github.com/Felkazz/zen-browser-better-unloaded-tabs), which at the time of writing was no longer maintained.*
 
