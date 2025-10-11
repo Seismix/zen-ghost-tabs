@@ -11,6 +11,10 @@ The goal is to make them easier to distinguish from loaded tabs, while still bei
 
 ### Via Zen Browser Mods (Recommended)
 
+Visit the [Ghost Tabs Mod Page](https://zen-browser.app/mods/c01d3e22-1cee-45c1-a25e-53c0f180eea8/) and click `Install Mod`
+
+If link is broken:
+
 1. Visit [https://zen-browser.app/mods/](https://zen-browser.app/mods/)
 2. Search for "Ghost Tabs" and install the mod
 
