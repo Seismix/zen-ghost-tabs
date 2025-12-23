@@ -2,8 +2,14 @@
 /* Makes unloaded/inactive tabs appear ghost-like */
 
 :root {
-    --ghost-filter: grayscale(1);
-    --ghost-opacity: 0.5;
+    --ghost-filter: none;
+    --ghost-opacity: calc(var(--mod-ghost_tabs-opacity, 50) * 0.01);
+}
+
+@media (-moz-bool-pref: "mod.ghost_tabs.bw_enabled") {
+    :root {
+        --ghost-filter: saturate(calc(var(--mod-ghost_tabs-saturation, 0) * 1%));
+    }
 }
 
 /* Pending tabs appear ghost-like */
