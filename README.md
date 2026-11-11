@@ -10,7 +10,15 @@ The goal is to make them easier to distinguish from loaded tabs, while still bei
 
 ## Installation
 
-### Via Zen Browser Mods (Recommended)
+### Via Sine (Recommended)
+
+[Sine](https://github.com/CosmoCreeper/Sine) is a community mod manager for Zen that installs mods straight from GitHub and keeps them up to date, so you always get the latest version with all settings.
+
+1. Install Sine using the installer from its [releases page](https://github.com/CosmoCreeper/Sine/releases) and restart Zen Browser
+2. If you installed Ghost Tabs from the Zen mod store, remove it first
+3. Go to Settings → Sine Mods. Under the marketplace, enter `Seismix/zen-ghost-tabs` in the field below "add your own locally from a GitHub repo" and click **Install**
+
+### Via Zen Browser Mods
 
 Visit the [Ghost Tabs Mod Page](https://zen-browser.app/mods/c01d3e22-1cee-45c1-a25e-53c0f180eea8/) and click `Install Mod`
 
@@ -20,7 +28,7 @@ If link is broken:
 2. Search for "Ghost Tabs" and install the mod
 
 > [!WARNING]
-> The version on the Zen mod store is **outdated** and has no settings. The store was archived before the update was merged, so it can't be updated for now. Follow the steps below to update it to the current version from this repository.
+> The version on the Zen mod store is **outdated** and has no settings. The store was archived before the update was merged, so it can't be updated for now. Install [via Sine](#via-sine-recommended) instead, or follow the steps below to update it to the current version from this repository.
 
 #### Updating the store version
 
@@ -46,11 +54,11 @@ If link is broken:
 4. Restart Zen Browser
 
 > [!NOTE]
-> The settings page is only available when installed via Zen Mods. To change saturation or opacity, edit the fallback values in `chrome.css` (`--mod-ghost_tabs-saturation, 0` and `--mod-ghost_tabs-opacity, 50`).
+> The settings page is only available when installed via Sine or Zen Mods. To change saturation or opacity, edit the fallback values in `chrome.css` (`--mod-ghost_tabs-saturation, 0` and `--mod-ghost_tabs-opacity, 50`).
 
 ## Customization
 
-You can customize the appearance of Ghost Tabs via the Zen Mods settings page (only available when installed via Zen Mods, see [Manual Installation](#manual-installation) otherwise):
+You can customize the appearance of Ghost Tabs in the mod's settings (in Settings → Sine Mods, or the Zen Mods settings page). With a manual installation, see [Manual Installation](#manual-installation) instead:
 
 - **Saturation (0-100)**: Adjust how much color the ghosted tabs retain (0 is fully black & white).
 - **Opacity (0-100)**: Adjust the transparency level of the ghosted tabs.
